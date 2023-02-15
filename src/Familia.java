@@ -18,7 +18,7 @@ public class Familia {
 		
 		
 		// Critério 1 de pontuação (de acordo com o númeor de dependentes)
-		new CriterioDepentendes(this);
+		new CriterioDependentes(this);
 		
 		// Critério2 de pontuação (de acordo com a renda)
 		new CriterioRenda(this);

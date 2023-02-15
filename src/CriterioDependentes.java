@@ -1,6 +1,6 @@
 
-public class CriterioDepentendes {
-	public CriterioDepentendes (Familia familia) {
+public class CriterioDependentes {
+	public CriterioDependentes (Familia familia) {
 		
 		// Para implementar novos critério de pontuação por meio de dependentes
 		familia.setPontuacao(familia.getPontuacao() + new PontuadorDependentes1().calcular(familia.getDependentes(), 3)) ;
