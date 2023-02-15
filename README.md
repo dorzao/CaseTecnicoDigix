@@ -1,6 +1,5 @@
-<font size="5">
 # Desafio técnico
-
+<font size="5">
 ## Seleção de famílias aptas a ganharem uma casa popular
 
 Temos um produto e recebemos o desafio de gerar uma lista de pessoas aptas a ganhar uma casa popular do governo, tendo como única exigência que essa lista esteja ordenada de forma mais justa possível com um somatório de pontos, analisando aspectos das famílias que estão participando. São considerados os seguintes critérios para a construção das pontuações:
