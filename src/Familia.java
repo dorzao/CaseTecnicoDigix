@@ -23,15 +23,14 @@ public class Familia {
 		// Critério2 de pontuação (de acordo com a renda)
 		new CriterioRenda(this);
 		
+		// Saída para teste de soma das pontuações
 		if (this.pontuacao > 0) {
 			System.out.println("Ao todo "+this.getPontuacao()+" pontos");
 		}
 		
-		for (int i = 0; i < Prioridade.pontuacoes.length; i++) {
-			new Prioridade(this, i);
-		}
-		 
-				
+		// Chamando o "concret" de organização de acordo com a pontuação
+		new Prioridade(this);
+						
 	}
 	
 	// getters e setters

@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+// Classe para imprimir o resultado da(s) lista(s) gerada(a) de acordo com a prioridade
 public class ListaFinal {
 	public void individual(ArrayList<Familia> lista) {
 	
@@ -19,17 +19,10 @@ public class ListaFinal {
 	}
 	
 	public void geral() {
+		System.out.println("========================================");
+		System.out.println("     Lista final de "+Prioridade.p[0].prioridade.size()+" participantes");
+		System.out.println("========================================");
 		this.individual(Prioridade.p[0].prioridade);
-		System.out.println(Prioridade.p[0].prioridade.size()+"\n\n\n\n\n\n\n\n");
-		/*System.out.println("===============");
-		System.out.println("   Prioridade "+1);
-		System.out.println("===============");
-		for (int c = 0; c < Prioridade.pontuacoes.length -1; c++) {
-			
-		}
-			
-		System.out.println("===============");
-		System.out.println("======FIM======"); */
-		
+				
 	}
 }

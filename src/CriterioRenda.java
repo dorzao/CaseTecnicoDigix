@@ -1,4 +1,4 @@
-
+// Estratégia concreta do critério 1 (renda)
 public class CriterioRenda {
 	public CriterioRenda (Familia familia) {
 		familia.setPontuacao(familia.getPontuacao() + new PontuadorRenda1().calcular(familia.getRenda(), 5)); 

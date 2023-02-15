@@ -20,20 +20,12 @@ public class Main {
 		new Familia("98782277688", 3, 0, 1505f);
 		
 		// Cadastrando duas familia manualmente
-		//new Familia(null, 6, 5, 890f);
-		//new Familia("99999999988", 0, 5, 890f);
+		new Familia(null, 6, 5, 890f);
+		new Familia("99999999988", 0, 5, 890f);
 		
+		// Saída da lista final de teste
 		new ListaFinal().geral();
-		//new Familia(null, 1, 1, 1f);
-		//new Familia("algo", 0, 1, 1f);
-		/*
-		System.out.println(f1.getNis());
-		System.out.println(f1.getMembros());
-		System.out.println(f1.getDependentes());
-		System.out.println(f1.getRenda());
-		System.out.println(f1.getPontuacao());
-		*/
-		
+				
 	}
 
 }

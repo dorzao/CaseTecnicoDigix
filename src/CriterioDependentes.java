@@ -1,4 +1,4 @@
-
+// Estratégia concreta dp critério 2 de dependentes
 public class CriterioDependentes {
 	public CriterioDependentes (Familia familia) {
 		
