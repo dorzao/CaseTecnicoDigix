@@ -1,4 +1,5 @@
 # Desafio técnico
+Melhoria do projeto com várias implementações -> [Aqui](https://github.com/dorzao/EstudosERevisoesJava/tree/main/CaseTecnicoDigixMelhorado). 
 
 ## Seleção de famílias aptas a ganharem uma casa popular
 <font size="5">
